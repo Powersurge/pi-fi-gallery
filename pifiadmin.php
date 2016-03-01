@@ -4,14 +4,14 @@ if ($_SESSION['sfpg_access']!==TRUE) {
   header('Location: admin.php');
   exit;
 } else {
-  if ($_POST['uploaders']!="") {
+  if ($_POST['uploaders']!="" or !file_exists("uploaders.txt")) {
     $file = fopen("uploaders.txt", "w") or die("Unable to open uploaders file!");
-    fwrite($file, base64_encode($_POST['uploaders']));
+    if ($_POST['uploaders']!="") { fwrite($file, base64_encode($_POST['uploaders'])); }
     fclose($file);
   }
-  if ($_POST['users']!="") {
+  if ($_POST['users']!="" or !file_exists("users.txt")) {
     $file = fopen("users.txt", "w") or die("Unable to open users file!");
-    fwrite($file, $_POST['users']);
+    if ($_POST['users']!="") { fwrite($file, $_POST['users']); }
     fclose($file);
   }
 ?>
