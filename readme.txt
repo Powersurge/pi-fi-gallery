@@ -78,7 +78,7 @@ Additional requirements of the Single File PHP Gallery can be viewed in the foll
 
 HOW TO USE / QUICK START
 
-Start by placing all of the Pi-Fi Gallery files to any directory of your web server.  Then connect a Raspberry Pi running Rasbian Jessie to the local network and SSH into it.  I am not going to cover using SSH because it is outside the scope of this quick start, but a lot of information can be found on the internet.  Once logged in, type in the following commands:
+Start by placing all of the Pi-Fi Gallery files to any directory of your web server.  Then connect a Raspberry Pi running Rasbian Jessie to the local network and SSH into it.  I am not going to cover using SSH because it is outside the scope of this quick start, but a lot of information can be found about this on the internet.  Once logged in, type in the following commands:
 
  > raspi-config (if you need to change the default password)
  > wget http://[Your Web Server]/pi-setup-raspbian-jessie.tar.gz
