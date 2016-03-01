@@ -122,5 +122,5 @@ echo $file;
     </td>
   </tr>
 </table>
-<?php } ?>
 </html>
+<?php } ?>
