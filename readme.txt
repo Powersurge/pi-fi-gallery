@@ -55,7 +55,7 @@ Additional features of the Single File PHP Gallery can be viewed in the followin
 
 IMPORTANT INFORMATION
 
- * Make sure your Raspberry Pi is running Rasbian Jessie or Jessie Lite. The included pi-setup script assumes that you are, and will most likely not finish successfully if you aren't. Also make sure that your Pi is set up with a unique password (not 'raspberry'!)
+ * Make sure your Raspberry Pi is running Rasbian Jessie or Jessie Lite. The included pi-setup script assumes that you are, and will most likely not finish successfully if you aren't. Also make sure that your Pi user is set up with a unique password (not 'raspberry'!)
 
  * Make sure that your Pi connects to a wi-fi network.  Since the Eye-Fi card transmits your images wirelessly, your Raspberry Pi needs to be connected to the wi-fi network in order to receive the images.  In other words, your place needs to have wi-fi of some sort (access point, wireless router, etc).
 
