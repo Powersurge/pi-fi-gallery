@@ -81,7 +81,7 @@ HOW TO USE / QUICK START
 Start by placing all of the Pi-Fi Gallery files to any directory of your web server.  Then connect a Raspberry Pi running Rasbian Jessie to the local network and SSH into it.  I am not going to cover using SSH because it is outside the scope of this quick start, but a lot of information can be found on the internet.  Once logged in, type in the following commands:
 
  > raspi-config (if you need to change the default password)
- > wget http://www.uniquetech.net/gallery/pi-setup-raspbian-jessie.tar.gz
+ > wget http://[Your Web Server]/pi-setup-raspbian-jessie.tar.gz
  > sudo tar -xvzf pi-setup-raspbian-jessie.tar.gz -C /
  > sudo chmod a+x pi-setup.sh
  > ./pi-setup.sh
