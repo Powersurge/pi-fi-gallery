@@ -17,7 +17,7 @@ WHAT IS IN THIS FILE
 
 WHAT IS PI-FI GALLERY?
 
-Pi-Fi Gallery is an open source project that utilizes an Eye-Fi card for your digital camera and a $35 Raspberry Pi computer.  When a picture is taken on your digital camera, the Eye-Fi card transmits the files to the Raspberry Pi, which in turn uploads the images to your web gallery for all to share.  Give one to all of your family members and never have to deal with the hassles of manually connecting your digital camera to your computer and emailing photos again.  Configuration mainly consists of copying all of the files in this project to your own personal web server and running a few commands on the Raspberry Pi.
+Pi-Fi Gallery is an open source project that utilizes an Eye-Fi card for your digital camera and a $35 Raspberry Pi computer to automatically copy the photos from your digital camera to the web gallery on your server.  When a picture is taken on your digital camera, the Eye-Fi card transmits the files to the Raspberry Pi, which in turn uploads the images to your web gallery for all to share.  Give one to all of your family members and never have to deal with the hassles of manually connecting your digital camera to your computer and emailing photos again.  Configuration mainly consists of copying all of the files in this project to your own personal web server and running a few commands on the Raspberry Pi.
 
 Pi-Fi Gallery works in conjunction with the following open source software:
 
@@ -47,6 +47,7 @@ REQUIREMENTS
 
 For Pi-Fi Gallery to function you will need the following:
 
+ * A web server running PHP5 with write access.
  * A Raspberry Pi running Raspbian Jessie or Jessie Lite.
  * An Eye-Fi card and a supported digital camera.
  * A wi-fi network.
