@@ -6,14 +6,25 @@ By Christopher Newell
 WHAT IS IN THIS FILE
 
  * WHAT IS IN THIS FILE
+ * REQUIREMENTS
  * WHAT IS PI-FI GALLERY?
  * END USER LICENSE AGREEMENT / EULA
  * FEATURES
- * REQUIREMENTS
  * IMPORTANT INFORMATION
  * HOW TO USE / QUICK START
  * SUPPORT / REQUESTS / HELP / CONTACT
 
+REQUIREMENTS
+
+For Pi-Fi Gallery to function you will need the following:
+
+ * A web server running PHP5 with write access.
+ * A Raspberry Pi running Raspbian Jessie or Jessie Lite.
+ * An Eye-Fi card and a supported digital camera.
+ * A wi-fi network.
+ * A computer or virtual machine running Windows or OSX (this is used to obtain the MAC address and upload key of the Eye-Fi card that is only available when installing on a Windows or OSX machine).
+
+Additional requirements of the Single File PHP Gallery can be viewed in the README-gallery text file.
 
 WHAT IS PI-FI GALLERY?
 
@@ -41,19 +52,6 @@ Pi-Fi Gallery is released to the public domain and can be used for free.  Howeve
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-REQUIREMENTS
-
-For Pi-Fi Gallery to function you will need the following:
-
- * A web server running PHP5 with write access.
- * A Raspberry Pi running Raspbian Jessie or Jessie Lite.
- * An Eye-Fi card and a supported digital camera.
- * A wi-fi network.
- * A computer or virtual machine running Windows or OSX to obtain the MAC address and upload key of your Eye-Fi card.
-
-Additional requirements of the Single File PHP Gallery can be viewed in the README-gallery text file.
 
 
 IMPORTANT INFORMATION
