@@ -19,7 +19,7 @@
 
 	define('GALLERY_ROOT', './');
 	define('DATA_ROOT', './_sfpg_data/');
-	define('SECURITY_PHRASE', 'VrRqDvKzxXFyn9ocC8aK4FTFDvlsgE');
+	define('SECURITY_PHRASE', '');
 	define('PASSWORD', '');
 	define('ADMIN', FALSE);
 
