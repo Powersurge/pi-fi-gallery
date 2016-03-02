@@ -6,12 +6,12 @@ if ($_SESSION['sfpg_access']!==TRUE) {
 } else {
   if ($_POST['uploaders']!="" or !file_exists("uploaders.txt")) {
     $file = fopen("uploaders.txt", "w") or die("Unable to open uploaders file!");
-    if ($_POST['uploaders']!="") { fwrite($file, base64_encode(strtolower($_POST['uploaders']))); }
+    if ($_POST['uploaders']!="") { fwrite($file, base64_encode(strtolower(str_replace(" ", "", $_POST['uploaders'])))); }
     fclose($file);
   }
   if ($_POST['users']!="" or !file_exists("users.txt")) {
     $file = fopen("users.txt", "w") or die("Unable to open users file!");
-    if ($_POST['users']!="") { fwrite($file, strtolower($_POST['users'])); }
+    if ($_POST['users']!="") { fwrite($file, strtolower(str_replace(" ", "", $_POST['users']))); }
     fclose($file);
   }
 ?>
