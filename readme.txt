@@ -71,7 +71,7 @@ For Pi-Fi Gallery to function you will need the following:
  * A Raspberry Pi running Raspbian Jessie or Jessie Lite.
  * An Eye-Fi card and a supported digital camera.
  * A wi-fi network.
- * A computer or Virtual machine running Windows or OSX to get the MAC address and upload key of your Eye-Fi card.
+ * A computer or virtual machine running Windows or OSX to obtain the MAC address and upload key of your Eye-Fi card.
 
 Additional requirements of the Single File PHP Gallery can be viewed in the following README below.
 
@@ -86,7 +86,7 @@ Start by placing all of the Pi-Fi Gallery files to any directory of your web ser
  > sudo chmod a+x pi-setup.sh
  > ./pi-setup.sh
 
-The script will download all of the necessary software.  Then it will ask you to connect to it with your web browser for configuration.  Do this, and enter the URL of the web server location where you copied all of the Pi-Fi Gallery files to.  Also, enter a password to secure the configuration settings of this uploader (Raspberry Pi) and click the 'Save' button.  Now go back to your SSH session and finish the setup process.
+The script will download all of the necessary software.  Then it will ask you to connect to it with your web browser for configuration.  Do this, and for Gallery URL enter the URL of the web server location where you copied all of the Pi-Fi Gallery files to.  Also, enter a password to secure the configuration settings of this uploader (Raspberry Pi) and click the 'Save' button.  Now go back to your SSH session and finish the setup process.
 
 Last, you will need to log into the Gallery Administration page (admin.php) and add an uploader and user to the gallery.  Before, you can do this though, you will need to set up your administration page with a security phrase and password.  View the following README below for more information on using Single File PHP Gallery.  Once logged in, you can click on the link in the top banner section to configure the uploaders and users.  The Uploader ID can be found when you connect to your uploader (Raspberry Pi) with a web browser.  The User consists of a user name, MAC address of the Eye-Fi card, and upload key of the Eye-Fi card.  The user name can just be the name of the owner of the camera or what ever name you want.  It will become a subfolder in the gallery that your pictures will get uploaded to.
 
