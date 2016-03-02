@@ -25,24 +25,6 @@ Pi-Fi Gallery works in conjunction with the following open source software:
  * Single File PHP Gallery by Kenny Svalgaard
 
 
-END USER LICENSE AGREEMENT / EULA
-
-For private non commercial use Pi-Fi Gallery can be used for free. When used commercially a donation for at least 10$ must be made per domain where it is used.
-
-You are of cause still more than welcome to donate if you like Pi-Fi gallery, even though you only use it privately.
-
-Under no circumstances can Pi-Fi Gallery or any part of it be distributed or sold, or be part of another work that is being distributed or sold.
-
-Making a donation:
-Domain name must be clearly stated in the donation, otherwise the donation will not grant use of the script under donating conditions. Donations are not refundable.
-
-Use the PayPal donate button on the page for donations:
-  http://sye.dk/sfpg/
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
 FEATURES
 
  * Free for private non commercial use
@@ -51,6 +33,14 @@ FEATURES
  * Web administration screen to manage uploaders & users.
  
 Additional features of the Single File PHP Gallery can be viewed in the README-gallery text file.
+
+
+END USER LICENSE AGREEMENT / EULA
+
+Pi-Fi Gallery is released to the public domain and can be used for free.  However, Single File PHP Gallery requires a donation under certain circumstances.  See the README-gallery text file for more information.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 REQUIREMENTS
