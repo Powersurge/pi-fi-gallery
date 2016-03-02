@@ -9,8 +9,8 @@ WHAT IS IN THIS FILE
  * WHAT IS PI-FI GALLERY?
  * END USER LICENSE AGREEMENT / EULA
  * FEATURES
- * IMPORTANT INFORMATION
  * REQUIREMENTS
+ * IMPORTANT INFORMATION
  * HOW TO USE / QUICK START
  * SUPPORT / REQUESTS / HELP / CONTACT
 
@@ -53,17 +53,6 @@ FEATURES
 Additional features of the Single File PHP Gallery can be viewed in the README-gallery text file.
 
 
-IMPORTANT INFORMATION
-
- * Make sure your Raspberry Pi is running Rasbian Jessie or Jessie Lite. The included pi-setup script assumes that you are, and will most likely not finish successfully if you aren't. Also make sure that your Pi user is set up with a unique password (not 'raspberry'!)
-
- * Make sure that your Pi connects to a wi-fi network.  Since the Eye-Fi card transmits your images wirelessly, your Raspberry Pi needs to be connected to the wi-fi network in order to receive the images.  In other words, your place needs to have wi-fi of some sort (access point, wireless router, etc).
-
- * A fast internet connection is probably necessary if you take a lot of pictures with your camera.
-
-Additional important information of the Single File PHP Gallery can be viewed in the README-gallery text file.
-
-
 REQUIREMENTS
 
 For Pi-Fi Gallery to function you will need the following:
@@ -74,6 +63,17 @@ For Pi-Fi Gallery to function you will need the following:
  * A computer or virtual machine running Windows or OSX to obtain the MAC address and upload key of your Eye-Fi card.
 
 Additional requirements of the Single File PHP Gallery can be viewed in the README-gallery text file.
+
+
+IMPORTANT INFORMATION
+
+ * Make sure your Raspberry Pi is running Rasbian Jessie or Jessie Lite. The included pi-setup script assumes that you are, and will most likely not finish successfully if you aren't. Also make sure that your Pi user is set up with a unique password (not 'raspberry'!)
+
+ * Make sure that your Pi connects to a wi-fi network.  Since the Eye-Fi card transmits your images wirelessly, your Raspberry Pi needs to be connected to the wi-fi network in order to receive the images.  In other words, your place needs to have wi-fi of some sort (access point, wireless router, etc).
+
+ * A fast internet connection is probably necessary if you take a lot of pictures with your camera.
+
+Additional important information of the Single File PHP Gallery can be viewed in the README-gallery text file.
 
 
 HOW TO USE / QUICK START
