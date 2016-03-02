@@ -129,7 +129,7 @@
 	define('TEXT_PAYPAL_OUT_BACK', 'Item is no longer in stock. Please click back and refresh the page to update inventory.');
 	define('TEXT_PAYPAL_PLEASE_WAIT', 'Redirecting to PayPal. Please wait... (Can take a few seconds)');
 
-	define('TEXT_GALLERY_NAME', 'Newell Family Gallery');
+	define('TEXT_GALLERY_NAME', 'Pi-Fi Gallery');
 	define('TEXT_BANNER', '<h3>Images will automatically be deleted from the gallery after 30 days from the date of upload!</h3>');
 	define('TEXT_HOME', 'Home');
 	define('TEXT_CLOSE_IMG_VIEW', 'Close Image');
