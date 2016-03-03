@@ -23,7 +23,7 @@ For Pi-Fi Gallery to function you will need the following:
  * A Raspberry Pi running Raspbian Jessie or Jessie Lite.
  * An Eye-Fi card and a supported digital camera.
  * A wi-fi network.
- * Familiarity with using SSH (A lot of information can be found about this on the internet).
+ * Familiarity with using Secure Shell (A lot of information about SSH can be found on the internet).
  * A computer or virtual machine running Windows or OSX (this is used to obtain the MAC address and upload key of the Eye-Fi card that you can only obtain when installing on a Windows or OSX machine).
 
 Additional requirements of the Single File PHP Gallery can be viewed in the README-gallery text file.
